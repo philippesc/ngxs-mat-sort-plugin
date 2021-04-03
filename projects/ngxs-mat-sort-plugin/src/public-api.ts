@@ -3,3 +3,4 @@
  */
 
 export * from './lib/ngxs-mat-sort-plugin.module';
+export * from './lib/ngxs-mat-sort.directive';
