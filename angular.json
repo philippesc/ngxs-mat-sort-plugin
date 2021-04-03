@@ -5,40 +5,38 @@
   "projects": {
     "ngxs-mat-sort-plugin": {
       "projectType": "library",
-      "root": "projects/ngxs-mat-sort-plugin",
-      "sourceRoot": "projects/ngxs-mat-sort-plugin/src",
+      "root": "ngxs-mat-sort-plugin",
+      "sourceRoot": "ngxs-mat-sort-plugin/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngxs-mat-sort-plugin/tsconfig.lib.json",
-            "project": "projects/ngxs-mat-sort-plugin/ng-package.json"
+            "tsConfig": "ngxs-mat-sort-plugin/tsconfig.lib.json",
+            "project": "ngxs-mat-sort-plugin/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngxs-mat-sort-plugin/tsconfig.lib.prod.json"
+              "tsConfig": "ngxs-mat-sort-plugin/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngxs-mat-sort-plugin/src/test.ts",
-            "tsConfig": "projects/ngxs-mat-sort-plugin/tsconfig.spec.json",
-            "karmaConfig": "projects/ngxs-mat-sort-plugin/karma.conf.js"
+            "main": "ngxs-mat-sort-plugin/src/test.ts",
+            "tsConfig": "ngxs-mat-sort-plugin/tsconfig.spec.json",
+            "karmaConfig": "ngxs-mat-sort-plugin/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngxs-mat-sort-plugin/tsconfig.lib.json",
-              "projects/ngxs-mat-sort-plugin/tsconfig.spec.json"
+              "ngxs-mat-sort-plugin/tsconfig.lib.json",
+              "ngxs-mat-sort-plugin/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
