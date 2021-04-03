@@ -4,8 +4,8 @@ import { NgxsMatSortPlugin } from './ngxs-mat-sort-plugin';
 import { NgxsMatSortDirective } from './ngxs-mat-sort.directive';
 
 @NgModule({
-  declarations: [],
-  imports: [NgxsMatSortDirective],
+  declarations: [NgxsMatSortDirective],
+  imports: [],
   exports: [NgxsMatSortDirective],
 })
 export class NgxsMatSortPluginModule {
