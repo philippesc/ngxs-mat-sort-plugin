@@ -1,6 +1,6 @@
 {
   "name": "ngxs-mat-sort-plugin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Philipp Escher <philipp.escher@gmail.com>",
   "peerDependencies": {
     "@angular/common": "^11.2.8",
@@ -8,5 +8,9 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philippesc/ngxs-mat-sort-plugin"
   }
 }
