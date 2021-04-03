@@ -11,6 +11,12 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "ngxs-mat-sort-plugin": [
+        "dist/ngxs-mat-sort-plugin/ngxs-mat-sort-plugin",
+        "dist/ngxs-mat-sort-plugin"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
