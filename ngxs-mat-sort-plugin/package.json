@@ -1,10 +1,12 @@
 {
   "name": "ngxs-mat-sort-plugin",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "author": "Philipp Escher <philipp.escher@gmail.com>",
   "peerDependencies": {
-    "@angular/common": "^11.2.8",
-    "@angular/core": "^11.2.8"
+    "@ngxs/store": "^0.0.0",
+    "@angular/material": "^10.0.0",
+    "@angular/core": ">=6.1.0 <12.0.0",
+    "rxjs": ">=6.5.5"
   },
   "dependencies": {
     "tslib": "^2.0.0"
