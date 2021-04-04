@@ -24,5 +24,8 @@
     "state-management",
     "mat-sort",
     "angular-material"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/philippesc/ngxs-mat-sort-plugin/issues"
+  }
 }
