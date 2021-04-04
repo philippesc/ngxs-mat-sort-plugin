@@ -12,5 +12,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/philippesc/ngxs-mat-sort-plugin"
-  }
+  },
+  "keywords": [
+    "ngxs",
+    "redux",
+    "state",
+    "rxjs",
+    "angular",
+    "cqrs",
+    "store",
+    "state-management",
+    "mat-sort",
+    "angular-material"
+  ]
 }
